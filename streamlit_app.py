@@ -19,4 +19,4 @@ fig = px.box(data,x='date',y=ycols[1:])
 
 
 st.title('Ranking Fluctuations for All Sites')
-st.plotly_chart(fig, theme='steamlit', use_container_width=True)
+st.plotly_chart(fig, theme='streamlit', use_container_width=True)
